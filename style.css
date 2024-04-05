@@ -5,16 +5,62 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+a {
+  object-position: cover;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+width: 200px;
+height: 150px;
+object-fit: cover;
+}
 
 .header {
-  background: linear-gradient(#425381, #141414); 
+    background: linear-gradient(#425381, #141414); 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
     }
-    
 
+.menu {
+      display: flex;
+      gap:  20px;
+
+      
+    }
+
+.position-logo { 
+      height: 100px;
+      width: 100px;
+    }
+
+.btn-nav{
+  padding: 5px 20px;
+}
+
+.btn-nav:hover {
+  background-color: rgb(160, 32, 36);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+
+}
+
+.login {
+ padding: 5px 20px;
+ margin-left: 20px;
+}
+
+.login:hover {
+  background-color: rgb(160, 32, 36);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+ 
+}
+    
 .banner {
     background-image: url(images/banniere.png);
     color: white;
@@ -24,32 +70,18 @@ body {
     background-position: center;
 }
 
-.position-logo { 
-  height: 100px;
-  width: 100px;
-}
 
 .banner p{
   margin-bottom: 50px;
 }
 
-a {
-    height: 150px;
-    object-position: cover;
-    text-decoration: none;
-    color: white;
-}
 
-img {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
-}
 
 .container {
     margin: 40px auto;
     width: 1000px;
   }
+
   .cards-grey{
     width: 60%;
     padding: 30px;
@@ -80,6 +112,7 @@ img {
     border-radius: 5px;
     padding: 15px 25px;
     color: black;
+    display: inline;
   }
 
   .btn-color:hover {
@@ -92,34 +125,19 @@ img {
     justify-content: space-around;
   }
   
-  .menu {
-    padding: 10px 25px;
-  }
 
-  .menu:hover {
-    background-color: rgb(160, 32, 36);
-    color: white;
-    border-radius: 5px;
-;
-  }
 
-  #connect {
-    margin-top: 20px;
-  }
-
-  .cards {
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid gap: 16px;
   }
 
+
 .board {
   background: linear-gradient(#425381, #141414);
   color: aliceblue;
   border-radius: 20px;
-  }
-
-  .board {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -158,20 +176,20 @@ img {
 }
 
 
-.one {
+.notebook {
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.one h2 {
+.notebook h2 {
   font-size: 2em;
   margin-bottom: 20px;
 
 }
 
-.one p {
+.notebook p {
   font-size: 1em;
   margin-bottom: 30px;
 
@@ -191,15 +209,14 @@ img {
 }
 
 
-.two-image {
+.galery {
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
-.two-image img {
-
+.galery img {
   height: 300px;
   width: 400px;
 }
@@ -214,7 +231,6 @@ img {
 }
 
 .footer {
-
   background: linear-gradient(#425381, #141414); 
   display: flex;
   justify-content: space-between;
@@ -231,17 +247,41 @@ color:#ffffff;
   color: white;
 }
 
-.email-design {
-  width: 300px;
-  height: 30px;
-  padding-left: 10px;
-  border-radius: 5px;
-  background-color: white;
+.email-subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff; 
+  border: 1px solid #d4d4d4; 
+  border-radius: 25px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: fit-content; 
+  margin-right: auto;
 }
 
-.footer a {
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px 15px;
-    color: black;
+.email-subscription input[type=email] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px; 
+  outline: none;
+  font-size: 16px;
+  flex-grow: 1; 
+}
+
+.subscribe-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333; 
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px; 
+  transition: background-color 0.3s ease; 
+}
+
+.subscribe-btn:hover {
+  background-color:rgb(160, 32, 36);
 }
