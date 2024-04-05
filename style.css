@@ -1,0 +1,247 @@
+/* Write some CSS below */
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+
+.header {
+  background: linear-gradient(#425381, #141414); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    }
+    
+
+.banner {
+    background-image: url(images/banniere.png);
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.position-logo { 
+  height: 100px;
+  width: 100px;
+}
+
+.banner p{
+  margin-bottom: 50px;
+}
+
+a {
+    height: 150px;
+    object-position: cover;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.container {
+    margin: 40px auto;
+    width: 1000px;
+  }
+  .cards-grey{
+    width: 60%;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    margin-bottom: 100px;
+  }
+  .article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+  }
+  .article-content {
+    font-size: 14px;
+    text-align: auto;
+    
+  }
+
+  .btn-color {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: black;
+  }
+
+  .btn-color:hover {
+    background-color: rgb(160, 32, 36);
+    color: #ffffff;
+  }
+
+  p{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu {
+    padding: 10px 25px;
+  }
+
+  .menu:hover {
+    background-color: rgb(160, 32, 36);
+    color: white;
+    border-radius: 5px;
+;
+  }
+
+  #connect {
+    margin-top: 20px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid gap: 16px;
+  }
+
+.board {
+  background: linear-gradient(#425381, #141414);
+  color: aliceblue;
+  border-radius: 20px;
+  }
+
+  .board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  }
+  
+
+
+  .board a:hover {
+    background-color: rgb(160, 32, 36);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .board img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .board p {
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+
+.board h2 {
+  color: #ffffff;
+    margin-left: 40px;
+    padding-top: 20px;  
+}
+
+
+.one {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+
+}
+
+.one p {
+  font-size: 1em;
+  margin-bottom: 30px;
+
+}
+
+.btn-white {
+  object-position: cover;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 40px;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.two-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.two-image img {
+
+  height: 300px;
+  width: 400px;
+}
+
+.effect {
+  transition: 0.5s;
+}
+
+.effect:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.footer {
+
+  background: linear-gradient(#425381, #141414); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.footer h4 {
+color:#ffffff;
+}
+
+.footer p {
+  font-size: 8px;
+  color: white;
+}
+
+.email-design {
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.footer a {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: black;
+}
